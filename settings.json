@@ -1,0 +1,25 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  //Set Code Format on Save
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "isort.args": ["--profile", "black"],
+  "python.linting.mypyEnabled": true,
+  "autoDocString.docstringFormat": "numpy",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+//   "window.zoomLevel": 1,
+}
